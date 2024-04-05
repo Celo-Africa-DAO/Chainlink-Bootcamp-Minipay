@@ -23,35 +23,46 @@
   </p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+### [MiniPay](https://www.opera.com/products/minipay)
 
-<!-- ABOUT THE PROJECT -->
+MiniPay is a stablecoin-based non-custodial wallet that allows you to send and receive funds instantly using just a phone number.
 
-## About The Project
+#### Guides
+
+[![MiniPay video](https://img.youtube.com/vi/cNp5vhwZdao/0.jpg)](https://www.youtube.com/watch?v=cNp5vhwZdao)
+
+-   [Build on MiniPay](https://docs.celo.org/developer/build-on-minipay)
+
+-   ##### Prerequisite Guides
+
+    -   [Android Studio Setup](https://docs.celo.org/developer/build-on-minipay/prerequisites/android-studio-setup)
+
+    -   [Ngrok Setup](https://docs.celo.org/developer/build-on-minipay/prerequisites/ngrok-setup)
+
+
+
+[![How to build on MiniPay](https://img.youtube.com/vi/NxZojrjVXQA/0.jpg)](https://www.youtube.com/watch?v=NxZojrjVXQA)
+
+#### [Cheatsheet](https://celoplatform.notion.site/MiniPay-Cheatsheet-60066f16d136421ab2ef19522ffe6200?pvs=74) 🤫
+
+#### Ideas
+
+-   Earn Using MiniPay
+-   Billing with MiniPay
+    -   Example:- Khatabook
+-   Ecommerce Store with MiniPay
+    -   Example:- Dukaan
+-   Scratch and win
+-   NFT Viewer
+-   Gift cards
+-   Asset tracking and accounting
+-   Bulk payments
+-   Expense approval
+
+
+
+## Celo Composer
 
 Celo Composer allows you to quickly build, deploy, and iterate on decentralized applications using Celo. It provides a number of frameworks, examples, and Celo specific functionality to help you get started with your next dApp.
 
