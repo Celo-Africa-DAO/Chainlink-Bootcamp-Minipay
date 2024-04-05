@@ -1,6 +1,16 @@
+
+![Example Image](images/bootcamp.jpg)
+
+<p align="center">This is part of the Chainlink Virtual Bootcamp workshop 2024. </p>
+
+
+
 <!-- TITLE -->
 <p align="center"> 
   <img width="100px" src="https://github.com/celo-org/celo-composer/blob/main/images/readme/celo_isotype.svg" align="center" alt="Celo" />
+
+ <p align="center">Celo is a mobile-first, carbon-neutral blockchain that makes decentralized financial (DeFi) tools and services accessible to anyone with a mobile phone. </p>
+  
  <h2 align="center">Celo Composer</h2>
  <p align="center">Build, deploy, and iterate quickly on decentralized applications using Celo.</p>
 </p>
@@ -24,45 +34,9 @@
 </p>
 
 
-### [MiniPay](https://www.opera.com/products/minipay)
-
-MiniPay is a stablecoin-based non-custodial wallet that allows you to send and receive funds instantly using just a phone number.
-
-#### Guides
-
-[![MiniPay video](https://img.youtube.com/vi/cNp5vhwZdao/0.jpg)](https://www.youtube.com/watch?v=cNp5vhwZdao)
-
--   [Build on MiniPay](https://docs.celo.org/developer/build-on-minipay)
-
--   ##### Prerequisite Guides
-
-    -   [Android Studio Setup](https://docs.celo.org/developer/build-on-minipay/prerequisites/android-studio-setup)
-
-    -   [Ngrok Setup](https://docs.celo.org/developer/build-on-minipay/prerequisites/ngrok-setup)
 
 
-
-[![How to build on MiniPay](https://img.youtube.com/vi/NxZojrjVXQA/0.jpg)](https://www.youtube.com/watch?v=NxZojrjVXQA)
-
-#### [Cheatsheet](https://celoplatform.notion.site/MiniPay-Cheatsheet-60066f16d136421ab2ef19522ffe6200?pvs=74) 🤫
-
-#### Ideas
-
--   Earn Using MiniPay
--   Billing with MiniPay
-    -   Example:- Khatabook
--   Ecommerce Store with MiniPay
-    -   Example:- Dukaan
--   Scratch and win
--   NFT Viewer
--   Gift cards
--   Asset tracking and accounting
--   Bulk payments
--   Expense approval
-
-
-
-## Celo Composer
+# Celo Composer
 
 Celo Composer allows you to quickly build, deploy, and iterate on decentralized applications using Celo. It provides a number of frameworks, examples, and Celo specific functionality to help you get started with your next dApp.
 
@@ -175,6 +149,43 @@ Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packa
 
 📧 Learn the [Solidity globals and units](https://solidity.readthedocs.io/en/v0.8.19/units-and-global-variables.html)
 
+
+# [MiniPay](https://www.opera.com/products/minipay)
+
+MiniPay is a stablecoin-based non-custodial wallet that allows you to send and receive funds instantly using just a phone number.
+
+#### Guides
+
+[![MiniPay video](https://img.youtube.com/vi/cNp5vhwZdao/0.jpg)](https://www.youtube.com/watch?v=cNp5vhwZdao)
+
+-   [Build on MiniPay](https://docs.celo.org/developer/build-on-minipay)
+
+-   ##### Prerequisite Guides
+
+    -   [Android Studio Setup](https://docs.celo.org/developer/build-on-minipay/prerequisites/android-studio-setup)
+
+    -   [Ngrok Setup](https://docs.celo.org/developer/build-on-minipay/prerequisites/ngrok-setup)
+
+
+
+[![How to build on MiniPay](https://img.youtube.com/vi/NxZojrjVXQA/0.jpg)](https://www.youtube.com/watch?v=NxZojrjVXQA)
+
+#### [Cheatsheet](https://celoplatform.notion.site/MiniPay-Cheatsheet-60066f16d136421ab2ef19522ffe6200?pvs=74) 🤫
+
+#### Ideas
+
+-  Personal Finance
+- Autosaver
+- Community savings
+- Splitwise
+- Crowdfunding
+- Poolsavings
+- Cashlinks: Payment links, Gift cards, Coupons
+- Billing with MiniPay
+- Microwork marketplace
+- Multisend function
+
+
 ## Support
 
 Join the Celo Discord server at <https://chat.celo.org>. Reach out on the dedicated repo channel [here](https://discord.com/channels/600834479145353243/941003424298856448).
@@ -203,6 +214,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 - [@CeloDevs](https://twitter.com/CeloDevs)
+- [@]
 - [Discord](https://discord.com/invite/celo)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
