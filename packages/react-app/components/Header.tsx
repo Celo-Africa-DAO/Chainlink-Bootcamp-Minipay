@@ -1,3 +1,5 @@
+//This code connects to a wallet using an injected connector (eg metamask)
+// If minipay's environment is sensed, it automatically connects and hides the `connect wallet` button
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
@@ -6,12 +8,15 @@ import { useEffect, useState } from "react";
 import { useConnect } from "wagmi";
 import { InjectedConnector } from "wagmi/connectors/injected";
 
+// Define the Header component.
 export default function Header() {
     const [hideConnectBtn, setHideConnectBtn] = useState(false);
     const { connect } = useConnect({
         connector: new InjectedConnector(),
     });
 
+    // Effect hook to automatically connect and hide the connect button if
+    // the website is accessed through MiniPay which has an injected Ethereum provider.
     useEffect(() => {
         if (window.ethereum && window.ethereum.isMiniPay) {
             setHideConnectBtn(true);
@@ -19,6 +24,7 @@ export default function Header() {
         }
     }, []);
 
+    // Render the header component using Disclosure for a collapsible menu.
     return (
         <Disclosure as="nav" className="bg-prosperity border-b border-black">
             {({ open }) => (
@@ -94,6 +100,8 @@ export default function Header() {
     );
 }
 
+// Extend the global Window interface to include the Ethereum object.
+// This is used for type safety and to ensure compatibility with TypeScript.
 declare global {
     interface Window {
         ethereum: any;
